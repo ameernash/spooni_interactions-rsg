@@ -36,14 +36,6 @@ Spooni Interactions provides an immersive way for players to interact with their
 3. Make sure all dependencies are installed and running
 4. Restart your server
 
-## ⚙️ Configuration
-
-### Basic Settings
-```lua
-Config.DevMode = true -- Enable/disable development mode
-Config.Locale = 'en' -- Language (en, de)
-```
-
 ### Effects System
 The resource includes a customizable effects system. Currently includes:
 - **Clean Effect**: Removes dirt, damage decals, and blood from player
@@ -201,12 +193,6 @@ To add new languages, edit `shared/translation.lua` and add your language code t
 2. **Wrong positioning**: Adjust x, y, z, and heading values in config
 3. **Animation not playing**: Verify animation dictionaries exist in the game
 4. **Compatibility issues**: Check isCompatible functions for character restrictions
-
-### Debug Mode
-Enable debug mode in config to see additional console output:
-```lua
-Config.DevMode = true
-```
 
 ## 📝 Version History
 
